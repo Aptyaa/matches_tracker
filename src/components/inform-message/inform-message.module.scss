@@ -1,0 +1,12 @@
+.inform {
+	display: flex;
+	align-items: center;
+	padding: 17px 24px;
+	border-radius: 4px;
+	background-color: var(--background-second);
+	color: var(--color-main);
+	margin-right: 12px;
+	img {
+		margin-right: 13px;
+	}
+}

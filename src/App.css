@@ -1,0 +1,19 @@
+#root {
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: start;
+	background-color: var(--background-main);
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: var(--color-main);
+}
+.wrapper_btn {
+	display: flex;
+}

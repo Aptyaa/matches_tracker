@@ -1,0 +1,20 @@
+.card {
+	box-sizing: border-box;
+	text-align: center;
+	border-radius: 4px;
+	padding: 6px 8px;
+	font-size: 12px;
+	font-weight: 600;
+	min-width: 92px;
+}
+
+.live {
+	background-color: var(--color-ongoing);
+}
+
+.finished {
+	background-color: var(--color-finished);
+}
+.scheduled {
+	background-color: var(--color-scheduled);
+}

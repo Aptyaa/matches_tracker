@@ -1,0 +1,12 @@
+body {
+	font-family: 'Inter', sans-serif;
+	margin: 0;
+	display: flex;
+	place-items: start;
+	min-width: 320px;
+	height: 100vh;
+}
+
+h1 {
+	font-size: 1.75em;
+}

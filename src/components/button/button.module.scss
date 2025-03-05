@@ -1,0 +1,29 @@
+.btn {
+	font-family: 'Inter', sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 600;
+	border: none;
+	display: flex;
+	align-items: center;
+	background-color: #eb0237;
+	color: white;
+	border-radius: 4px;
+	padding: 17px 40px;
+	cursor: pointer;
+	img {
+		margin-left: 10px;
+	}
+}
+
+.spinner {
+	animation: refresh 0.7s linear infinite;
+}
+@keyframes refresh {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(-360deg);
+	}
+}
